@@ -2,6 +2,34 @@
 ### Development intended for 2027
 ---
 
+***
+
+# Forge
+
+<div align="center">
+
+![Forge Logo](https://via.placeholder.com/150x150/000000/FFFFFF?text=FORGE)
+
+**The Build Orchestrator for Rust Game Development.**
+
+[![Crates.io](https://img.shields.io/crates/v/forge.svg)](https://crates.io/crates/forge)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Downloads](https://img.shields.io/crates/d/forge.svg)](https://crates.io/crates/forge)
+
+</div>
+
+---
+
+### The "Physics of Rust" are solved.
+
+**Forge** is not a game engine. It is the DevOps engineer for your game engine.
+
+Rust is the future of high-performance game development, but the tooling gap between "Hello World" and "Shipped RPG" is massive. Linker configuration, asset compression pipelines, WebGPU bindings, and mobile scaffolding are painful to manage manually.
+
+Forge automates the entire production lifecycle, wrapping `cargo` to provide the specific build strategies needed for AA/AAA development.
+
+---
+
 ### Expectations from `Forge` (The Rust Toolchain)
 
 **Forge** is the "Performance Tuner" and "Build Orchestrator" specifically for the Rust ecosystem (Game Dev & WASM). It solves the "Physics of Rust" (slow compile times) by automating complex optimizations.
@@ -59,34 +87,6 @@ Here is the breakdown by category:
 
 
 Here is the definitive `README.md` for **Forge**. It is written with the tone of a mature, industry-standard tool releasing in 2027.
-
-***
-
-# Forge
-
-<div align="center">
-
-![Forge Logo](https://via.placeholder.com/150x150/000000/FFFFFF?text=FORGE)
-
-**The Build Orchestrator for Rust Game Development.**
-
-[![Crates.io](https://img.shields.io/crates/v/forge.svg)](https://crates.io/crates/forge)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Downloads](https://img.shields.io/crates/d/forge.svg)](https://crates.io/crates/forge)
-
-</div>
-
----
-
-### The "Physics of Rust" are solved.
-
-**Forge** is not a game engine. It is the DevOps engineer for your game engine.
-
-Rust is the future of high-performance game development, but the tooling gap between "Hello World" and "Shipped RPG" is massive. Linker configuration, asset compression pipelines, WebGPU bindings, and mobile scaffolding are painful to manage manually.
-
-Forge automates the entire production lifecycle, wrapping `cargo` to provide the specific build strategies needed for AA/AAA development.
-
----
 
 ## ✨ Key Capabilities
 
